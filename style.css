@@ -1,0 +1,232 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #2b114a; /* Darker purple background color */
+    color: #fff; /* White text color */
+    line-height: 1.6;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+.logo {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: all 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #ffd166; /* Yellow color on hover */
+}
+
+.home-content {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.home-content h1,
+.home-content h3,
+.home-content h4 {
+    margin-bottom: 20px;
+}
+
+.about-text {
+    padding: 50px 0;
+}
+
+.about-text h2 {
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    margin-bottom: 15px;
+}
+
+.skills-container {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.skill-heading {
+    margin-bottom: 30px;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skill {
+    width: 200px;
+    margin: 0 15px;
+    margin-bottom: 30px;
+}
+
+.skill i {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.skill-name {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.skill-bar {
+    height: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.img {
+    display: flex;
+    justify-content: center; /* Horizontally center the image */
+    align-items: center; /* Vertically center the image */
+}
+
+.img img {
+    border-radius: 50%; /* Makes the image circular */
+    width: 200px; /* Adjust the width as needed */
+    height: 200px; /* Adjust the height as needed */
+}
+
+
+.decision-making {
+    width: 60%; /* Adjust the width as needed */
+}
+
+.creativity {
+    width: 70%; /* Adjust the width as needed */
+}
+
+.communication {
+    width: 90%; /* Adjust the width as needed */
+}
+
+.teamwork {
+    width: 90%; /* Adjust the width as needed */
+}
+
+.services {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.main-text h2 {
+    margin-bottom: 20px;
+}
+
+.serv-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.serv-container .row {
+    margin: 0 15px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.serv-container img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.serv-container .layer {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: -5px;
+}
+
+.serv-container h5 {
+    margin-bottom: 10px;
+}
+
+.contact-text {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact-text h2 {
+    margin-bottom: 20px;
+}
+
+.contact-text h4 {
+    margin-bottom: 30px;
+}
+
+.contact-list li {
+    margin-bottom: 10px;
+}
+
+.contact-icons {
+    margin-top: 30px;
+}
+
+.contact-icons a {
+    color: #fff;
+    font-size: 2rem;
+    margin: 0 10px;
+    transition: all 0.3s ease;
+}
+
+.contact-icons a:hover {
+    color: #ffd166; /* Yellow color on hover */
+}
+
+.last-text {
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 2rem;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    padding: 10px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.top:hover {
+    color: #ffd166; /* Yellow color on hover */
+    background-color: rgba(0, 0, 0, 0.7); /* Darker semi-transparent background on hover */
+}
